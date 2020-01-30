@@ -5,3 +5,5 @@ php artisan migrate:fresh
 php artisan db:seed
 
 #php artisan swoole:http start
+
+php bin/laravels start
