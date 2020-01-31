@@ -5,11 +5,11 @@ php artisan migrate:fresh
 php artisan db:seed
 
 
-pecl install swoole
+#pecl install swoole
 
-php artisan vendor:publish --tag=laravel-swoole
+#php artisan vendor:publish --tag=laravel-swoole
 
-php artisan swoole:http start
+#php artisan swoole:http start
 
 
 
