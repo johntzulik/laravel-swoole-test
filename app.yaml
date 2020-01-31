@@ -20,7 +20,7 @@ env_variables:
   DB_HOST: localhost
   DB_DATABASE:  laravel_db_test
   DB_USERNAME: laravel_db_test
-  DB_PASSWORD: YOUR_DB_PASSWORD
+  DB_PASSWORD: M4chup1chu21!
   DB_SOCKET: "/cloudsql/proud-armor-266716:us-central1:laraveltesting"
 
 beta_settings:
