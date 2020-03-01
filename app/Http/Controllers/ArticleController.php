@@ -9,7 +9,11 @@ class ArticleController extends Controller
 {
     public function index()
     {
-        return Article::all();
+        $articles = Article::all();
+
+        return response()->json([
+            "article" => $todos
+        ], 200);
     }
  
     public function show($id)
