@@ -12,7 +12,7 @@ class ArticleController extends Controller
         $articles = Article::all();
 
         return response()->json([
-            "article" => $articles
+            "articles" => $articles
         ], 200);
     }
  
