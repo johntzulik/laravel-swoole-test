@@ -178,11 +178,6 @@ return [
          * Swoole
          */
         SwooleTW\Http\LaravelServiceProvider::class,
-        /*
-         * LaravelS
-         */
-        Hhxsv5\LaravelS\Illuminate\LaravelSServiceProvider::class,
-
     ],
 
     /*
